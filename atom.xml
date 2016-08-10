@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://morz.org/"/>
-  <updated>2016-08-10T01:38:44.016Z</updated>
+  <updated>2016-08-10T22:33:06.669Z</updated>
   <id>https://morz.org/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>喵萌博客新主题~漂不漂亮呢？</title>
+    <link href="https://morz.org//archives/%E5%96%B5%E8%90%8C%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-%E6%BC%82%E4%B8%8D%E6%BC%82%E4%BA%AE%E5%91%A2%EF%BC%9F/index.html"/>
+    <id>https://morz.org//archives/喵萌博客新主题-漂不漂亮呢？/index.html</id>
+    <published>2016-08-10T21:53:23.000Z</published>
+    <updated>2016-08-10T22:33:06.669Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>首先感谢冰喵频道群组和TG现代前端魔法布群组成员，没有各位菊苣的帮助<br>我也做不到我目前的完美  </p>
+<p>采用主题：[cyanstyle]: <a href="https://github.com/wizardforcel/hexo-theme-cyanstyle" target="_blank" rel="external">https://github.com/wizardforcel/hexo-theme-cyanstyle</a></p>
+<p>首先，首页是这样的<br><img src="https://static.morz.org/data/img/2016-08-10-22.03-index.png" alt="首页">  </p>
+<p>对比原主题的改动有<br>透明度调整，因壁纸更换的原因，如果不做调整将会导致阅读困难<br><img src="https://static.morz.org/data/img/2016-08-10-22.08-indexoid.png" alt="首页oid"></p>
+<p>接下来是友链<br>这块原主题本来是没有的，但被我强行从另外一个主题扒下来用了<br>目前是这样的<br><img src="https://static.morz.org/data/img/2016-08-10-22.14-link.png" alt="友链"></p>
+<p>评论部分采用多说（如果不是另外一个被gfw各种坑的话我肯定会用它的，如果能优化的话我也会用的<br><img src="https://static.morz.org/data/img/2016-08-10-22.17-pl.gif" alt="评论"></p>
+<p>搜索使用谷歌，但搜索框在不修改的情况下在移动端是这样的<br><img src="https://static.morz.org/data/img/2016-08-10-22.18-so.jpg" alt="搜索"><br>修改后<br><img src="https://static.morz.org/data/img/2016-08-10-22.22-xso.png" alt="新搜索"></p>
+<p>笛凌小组全体成员对冰喵群组还有TG现代前端魔法部群组的各位表示万分感谢  </p>
+<p>（请原谅我记不住大部分成员都有谁了） </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;首先感谢冰喵频道群组和TG现代前端魔法布群组成员，没有各位菊苣的帮助&lt;br
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="https://morz.org/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="主题" scheme="https://morz.org/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>某喵的电脑换新了</title>
