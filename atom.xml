@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://morz.org/"/>
-  <updated>2016-08-09T18:36:55.413Z</updated>
+  <updated>2016-08-10T01:33:34.309Z</updated>
   <id>https://morz.org/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>某喵的电脑换新了</title>
+    <link href="https://morz.org//archives/%E6%9F%90%E5%96%B5%E7%9A%84%E7%94%B5%E8%84%91%E6%8D%A2%E6%96%B0%E4%BA%86/index.html"/>
+    <id>https://morz.org//archives/某喵的电脑换新了/index.html</id>
+    <published>2016-08-10T01:26:49.000Z</published>
+    <updated>2016-08-10T01:33:34.309Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>也不是完整换掉，这篇文章略水，好了放配置</p>
+<p><img src="https://static.morz.org/data/img/2016-08-10-125-1.png" alt="8核8线程24G内存"></p>
+<p>主要换了主板+电源+内存<br>显卡还是苦逼的9600GT，有那位土豪能扔个比9600GT好的垃圾给我吗？谢谢了</p>
+<p>上面的配置还要感谢爱loli站长，没有他我换电脑恐怕还要一段时间</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;也不是完整换掉，这篇文章略水，好了放配置&lt;/p&gt;
+&lt;p&gt;&lt;img src=
+    
+    </summary>
+    
+    
+      <category term="终于换电脑了,电脑" scheme="https://morz.org/tags/%E7%BB%88%E4%BA%8E%E6%8D%A2%E7%94%B5%E8%84%91%E4%BA%86-%E7%94%B5%E8%84%91/"/>
+    
+  </entry>
   
   <entry>
     <title>关于我</title>
@@ -41,13 +66,13 @@
     <published>2016-05-19T10:04:16.000Z</published>
     <updated>2016-08-09T18:36:55.413Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><div id="dplayer1" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer1 = new DPlayer({element: document.getElementById("dplayer1"),autoplay: false,loop: true,video : {url: "https://static.morz.org/data/video/2016-5-19-18:11.mp4"} });dplayer1.init();</script>
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><div id="dplayer2" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer2 = new DPlayer({element: document.getElementById("dplayer2"),autoplay: false,loop: true,video : {url: "https://static.morz.org/data/video/2016-5-19-18:11.mp4"} });dplayer2.init();</script>
 <p>备注：本视频是通过Telegram聊天方式获得，不知原作者其来源，如果有来源 请在下方回复中留言即可 我会验证并添加</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;div id=&quot;dplayer1&quot; class=&quot;dplayer&quot; style
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;div id=&quot;dplayer2&quot; class=&quot;dplayer&quot; style
     
     </summary>
     
@@ -143,7 +168,7 @@
 <p>音乐分享测试(正式采用Diygod的Aplayer)</p>
 <p>Aplayer</p>
 <div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div><script>var aplayer0 = new APlayer({element: document.getElementById("aplayer0"),narrow: false,autoplay: false,showlrc: 0,music : {title: "凛として咲く花の如く ～ひなビタ♪ edition～",author: "日高里菜,津田美波,五十嵐裕美",url: "https://static.morz.org/data/music/2016-5-17-16:41.mp3",pic: "https://static.morz.org/data/img/2016-05-17-16:41.jpg"}});aplayer0.init();</script>
-<p>视频分享测试（正式采用Diygod的Dplayer<br><div id="dplayer2" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer2 = new DPlayer({element: document.getElementById("dplayer2"),autoplay: false,loop: false,video : {url: "https://static.morz.org/data/video/2016-5-23-20-51.mp4"} });dplayer2.init();</script></p>
+<p>视频分享测试（正式采用Diygod的Dplayer<br><div id="dplayer1" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer1 = new DPlayer({element: document.getElementById("dplayer1"),autoplay: false,loop: false,video : {url: "https://static.morz.org/data/video/2016-5-23-20-51.mp4"} });dplayer1.init();</script></p>
 <p>#开发调试</p>
 <p>#dplayer “url=<a href="http://devtest.qiniudn.com/若能绽放光芒.mp4" target="_blank" rel="external">http://devtest.qiniudn.com/若能绽放光芒.mp4</a>“ “api=<a href="http://dplayer.daoapp.io" target="_blank" rel="external">http://dplayer.daoapp.io</a>“ “pic=<a href="http://devtest.qiniudn.com/若能绽放光芒.png" target="_blank" rel="external">http://devtest.qiniudn.com/若能绽放光芒.png</a>“ “id=9E2E3368B56CDBB4” “loop=yes” “theme=#FADFA3” “autoplay=false” “token=tokendemo”</p>
 ]]></content>
