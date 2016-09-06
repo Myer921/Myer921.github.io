@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>喵萌博客</title>
-  <subtitle>笛凌小组的博客</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://morz.org/"/>
-  <updated>2016-08-10T22:33:06.669Z</updated>
+  <updated>2016-09-06T10:07:52.623Z</updated>
   <id>https://morz.org/</id>
   
   <author>
@@ -16,26 +16,59 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>喵萌博客新主题~漂不漂亮呢？</title>
-    <link href="https://morz.org//archives/%E5%96%B5%E8%90%8C%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-%E6%BC%82%E4%B8%8D%E6%BC%82%E4%BA%AE%E5%91%A2%EF%BC%9F/index.html"/>
-    <id>https://morz.org//archives/喵萌博客新主题-漂不漂亮呢？/index.html</id>
-    <published>2016-08-10T21:53:23.000Z</published>
-    <updated>2016-08-10T22:33:06.669Z</updated>
+    <title>[视频分享] 麻枝准叙事歌系列</title>
+    <link href="https://morz.org//archives/2016/09/06/%5B%E8%A7%86%E9%A2%91%E5%88%86%E4%BA%AB%5D%20%E9%BA%BB%E6%9E%9D%E5%87%86%E5%8F%99%E4%BA%8B%E6%AD%8C%E7%B3%BB%E5%88%97/index.html"/>
+    <id>https://morz.org//archives/2016/09/06/[视频分享] 麻枝准叙事歌系列/index.html</id>
+    <published>2016-09-06T08:46:20.000Z</published>
+    <updated>2016-09-06T10:07:52.623Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>首先感谢冰喵频道群组和TG现代前端魔法布群组成员，没有各位菊苣的帮助<br>我也做不到我目前的完美  </p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>麻枝 准×やなぎなぎ 「終わりの世界から」<br><div id="dplayer2" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer2 = new DPlayer({"element":document.getElementById("dplayer2"),"autoplay":false,"theme":"#FADFA3","loop":false,"video":{"url":"https://video-cache.morz.org/data/video/2016-9-06-08_50.mp4"}});</script><br>麻枝 准×やなぎなぎ「Killer Song」<br><div id="dplayer3" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer3 = new DPlayer({"element":document.getElementById("dplayer3"),"autoplay":false,"theme":"#FADFA3","loop":false,"video":{"url":"https://video-cache.morz.org/data/video/2016-9-06-09_25.mp4"}});</script><br>麻枝 准×やなぎなぎ「無敵のSoldier」<br><div id="dplayer4" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer4 = new DPlayer({"element":document.getElementById("dplayer4"),"autoplay":false,"theme":"#FADFA3","loop":false,"video":{"url":"https://video-cache.morz.org/data/video/2016-9-06-09_29.mp4"}});</script><br>麻枝 准×やなぎなぎ「Last Smile」<br><div id="dplayer5" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer5 = new DPlayer({"element":document.getElementById("dplayer5"),"autoplay":false,"theme":"#FADFA3","loop":false,"video":{"url":"https://video-cache.morz.org/data/video/2016-9-06-09_32.mp4"}});</script></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;麻枝 准×やなぎなぎ 「終わりの世界から」&lt;br&gt;&lt;div id=&quot;dplayer2&quot; class=&quot;dplayer&quot; style=&quot;margin-bottom: 20px;
+    
+    </summary>
+    
+    
+      <category term="视频分享" scheme="https://morz.org/tags/%E8%A7%86%E9%A2%91%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="麻枝准" scheme="https://morz.org/tags/%E9%BA%BB%E6%9E%9D%E5%87%86/"/>
+    
+      <category term="やなぎなぎ" scheme="https://morz.org/tags/%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E/"/>
+    
+      <category term="終わりの世界から" scheme="https://morz.org/tags/%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%8B%E3%82%89/"/>
+    
+      <category term="Killer Song" scheme="https://morz.org/tags/Killer-Song/"/>
+    
+      <category term="無敵のSoldier" scheme="https://morz.org/tags/%E7%84%A1%E6%95%B5%E3%81%AESoldier/"/>
+    
+      <category term="Last Smile" scheme="https://morz.org/tags/Last-Smile/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>喵萌博客新主题~漂不漂亮呢？</title>
+    <link href="https://morz.org//archives/2016/08/11/%E5%96%B5%E8%90%8C%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-%E6%BC%82%E4%B8%8D%E6%BC%82%E4%BA%AE%E5%91%A2%EF%BC%9F/index.html"/>
+    <id>https://morz.org//archives/2016/08/11/喵萌博客新主题-漂不漂亮呢？/index.html</id>
+    <published>2016-08-10T21:53:23.000Z</published>
+    <updated>2016-09-06T09:19:27.509Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>首先感谢冰喵频道群组和TG现代前端魔法布群组成员，没有各位菊苣的帮助<br>我也做不到我目前的完美<br>更新日志：<br>2016-9-06/9:19 本页内容作废<br>2016-8-15/4:24 修正aplayer和dplayer插件因主题在首页多次执行js脚本的问题<br>2016-8-15/4:24 将部分js调整后加载<br>2016-8-15/18:59 修复多说评论部分字体无法看清问题(感谢Sonic853报错)，延迟加载Aplayer和Dplayer播放器js<br>2016-8-15/19:33 将主题自带背景音乐改成bplayer(偷懒并尝试新播放器)</p>
 <p>采用主题：[cyanstyle]: <a href="https://github.com/wizardforcel/hexo-theme-cyanstyle" target="_blank" rel="external">https://github.com/wizardforcel/hexo-theme-cyanstyle</a></p>
-<p>首先，首页是这样的<br><img src="https://static.morz.org/data/img/2016-08-10-22.03-index.png" alt="首页">  </p>
-<p>对比原主题的改动有<br>透明度调整，因壁纸更换的原因，如果不做调整将会导致阅读困难<br><img src="https://static.morz.org/data/img/2016-08-10-22.08-indexoid.png" alt="首页oid"></p>
-<p>接下来是友链<br>这块原主题本来是没有的，但被我强行从另外一个主题扒下来用了<br>目前是这样的<br><img src="https://static.morz.org/data/img/2016-08-10-22.14-link.png" alt="友链"></p>
+<p>首先，首页是这样的<br><img src="https://static.morz.org/data/img/2016-08-10-22.03-index-minz.jpg" alt="首页">  </p>
+<p>对比原主题的改动有<br>透明度调整，因壁纸更换的原因，如果不做调整将会导致阅读困难<br><img src="https://static.morz.org/data/img/2016-08-10-22.08-indexoid-minz.jpg" alt="首页oid"></p>
+<p>接下来是友链<br>这块原主题本来是没有的，但被我强行从另外一个主题扒下来用了<br>目前是这样的<br><img src="https://static.morz.org/data/img/2016-08-10-22.14-link.jpg" alt="友链"></p>
 <p>评论部分采用多说（如果不是另外一个被gfw各种坑的话我肯定会用它的，如果能优化的话我也会用的<br><img src="https://static.morz.org/data/img/2016-08-10-22.17-pl.gif" alt="评论"></p>
-<p>搜索使用谷歌，但搜索框在不修改的情况下在移动端是这样的<br><img src="https://static.morz.org/data/img/2016-08-10-22.18-so.jpg" alt="搜索"><br>修改后<br><img src="https://static.morz.org/data/img/2016-08-10-22.22-xso.png" alt="新搜索"></p>
+<p>搜索使用谷歌，但搜索框在不修改的情况下在移动端是这样的<br><img src="https://static.morz.org/data/img/2016-08-10-22.18-so.jpg" alt="搜索"><br>修改后<br><img src="https://static.morz.org/data/img/2016-08-10-22.22-xso.jpg" alt="新搜索"></p>
 <p>笛凌小组全体成员对冰喵群组还有TG现代前端魔法部群组的各位表示万分感谢  </p>
 <p>（请原谅我记不住大部分成员都有谁了） </p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;首先感谢冰喵频道群组和TG现代前端魔法布群组成员，没有各位菊苣的帮助&lt;br
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;首先感谢冰喵频道群组和TG现代前端魔法布群组成员，没有各位菊苣的帮助&lt;br&gt;我也做不到我目前的完美&lt;br&gt;更新日志：&lt;br&gt;2016-9-06/9:19 本页内容作废&lt;br&gt;
     
     </summary>
     
@@ -47,22 +80,58 @@
   </entry>
   
   <entry>
-    <title>某喵的电脑换新了</title>
-    <link href="https://morz.org//archives/%E6%9F%90%E5%96%B5%E7%9A%84%E7%94%B5%E8%84%91%E6%8D%A2%E6%96%B0%E4%BA%86/index.html"/>
-    <id>https://morz.org//archives/某喵的电脑换新了/index.html</id>
-    <published>2016-08-10T01:26:49.000Z</published>
-    <updated>2016-08-10T01:38:44.016Z</updated>
+    <title>路由上搞自动激活的KMS服务器</title>
+    <link href="https://morz.org//archives/2016/08/10/%E8%B7%AF%E7%94%B1%E4%B8%8A%E6%90%9E%E8%87%AA%E5%8A%A8%E6%BF%80%E6%B4%BB%E7%9A%84KMS%E6%9C%8D%E5%8A%A1%E5%99%A8/index.html"/>
+    <id>https://morz.org//archives/2016/08/10/路由上搞自动激活的KMS服务器/index.html</id>
+    <published>2016-08-10T15:38:32.000Z</published>
+    <updated>2016-08-10T16:36:11.523Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>也不是完整换掉，这篇文章略水，好了放配置</p>
-<p><img src="https://static.morz.org/data/img/2016-08-10-125-1.png" alt="24G内存，8核8线程"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>随便看了看网站，恩，看到了这个<br><a href="http://login926.github.io/2016/08/03/KMS/" target="_blank" rel="external">link</a></p>
+<p>感觉这种固件自带的根本不适合我们这种官方版的嘛<br>那就自己折腾一个咯  </p>
+<p>首先你要确保你路由剩余空间充足，并且系统是openwrt，需要安装这几个包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">opkg update &amp;&amp; opkg install git python screen</div></pre></td></tr></table></figure></p>
+<p>然后执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> git://github.com/myanaloglife/py-kms</div><div class="line"><span class="built_in">cd</span> py-kms</div><div class="line">screen -S kms</div><div class="line">python server.py</div></pre></td></tr></table></figure></p>
+<p>键盘按住ctrl+a+d 让screen后台运行  </p>
+<p>如果你是要手动激活的话你需要这样做<br>XXXXX…..是你要用的kms秘钥 这个本文章不提供<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX</div><div class="line">slmgr /skms 路由器ip:1688</div><div class="line">slmgr /ato</div></pre></td></tr></table></figure></p>
+<p>如果你打算在系统安装过程中输入秘钥后启动系统自动激活，请这样做<br>在/etc/dnsmasq.conf中加上一行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">srv-host=_vlmcs._tcp,Tsystem,1688,0,100</div></pre></td></tr></table></figure></p>
+<p>其中Tsystem请换成你路由器名称<br>然后执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/etc/init.d/dnsmasq restart</div></pre></td></tr></table></figure></p>
+<p>进行重启</p>
+<p>使用方法是，正常安装系统，运行py-kms，提示输入秘钥的时候请输入，等待系统安装完成后，开机进入系统自动激活</p>
+<p>结束教程，如果有缺失欢迎在评论中回复</p>
+<p>冰喵温馨提示，如果有条件入正版的话请入正版 谢谢</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;随便看了看网站，恩，看到了这个&lt;br&gt;&lt;a href=&quot;http://login926.github.io/2016/08/03/KMS/&quot; target=&quot;_blank&quot; 
+    
+    </summary>
+    
+    
+      <category term="KMS" scheme="https://morz.org/tags/KMS/"/>
+    
+      <category term="windows激活" scheme="https://morz.org/tags/windows%E6%BF%80%E6%B4%BB/"/>
+    
+      <category term="openwrt" scheme="https://morz.org/tags/openwrt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>某喵的电脑换新了</title>
+    <link href="https://morz.org//archives/2016/08/10/%E6%9F%90%E5%96%B5%E7%9A%84%E7%94%B5%E8%84%91%E6%8D%A2%E6%96%B0%E4%BA%86/index.html"/>
+    <id>https://morz.org//archives/2016/08/10/某喵的电脑换新了/index.html</id>
+    <published>2016-08-10T01:26:49.000Z</published>
+    <updated>2016-08-11T04:43:38.350Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>也不是完整换掉，这篇文章略水，好了放配置</p>
+<p><img src="https://static.morz.org/data/img/2016-08-10-125-1-minz.jpg" alt="24G内存，8核8线程"></p>
 <p>主要换了主板+电源+内存<br>显卡还是苦逼的9600GT，有那位土豪能扔个比9600GT好的垃圾给我吗？谢谢了</p>
 <p>上面的配置还要感谢爱loli站长，没有他我换电脑恐怕还要一段时间<br>（就是略费电，没声卡（自己买了张usb声卡）</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;也不是完整换掉，这篇文章略水，好了放配置&lt;/p&gt;
-&lt;p&gt;&lt;img src=
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;也不是完整换掉，这篇文章略水，好了放配置&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://static.morz.org/data/img/2016-08-10-125-1
     
     </summary>
     
@@ -73,19 +142,19 @@
   
   <entry>
     <title>关于我和小组</title>
-    <link href="https://morz.org//archives/about/index.html"/>
-    <id>https://morz.org//archives/about/index.html</id>
+    <link href="https://morz.org//archives/2016/05/23/about/index.html"/>
+    <id>https://morz.org//archives/2016/05/23/about/index.html</id>
     <published>2016-05-23T12:59:44.000Z</published>
     <updated>2016-08-10T22:46:42.059Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>首先先说我自己吧，我叫冰喵<br>我常用Telegram，极少使用QQ等国产类聊天软件<br>我的Telegram用户名：@CatMoe<br>不用微博也不混贴吧，不是菊苣是渣渣<br>冰喵很容易忘事，如果拜托冰喵一些事的话别忘多提醒一下<br>然后冰喵虽然不会对其他男孩纸女装反感，但如果有人要我女装的话我是拒绝的（立刻拒绝  </p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>首先先说我自己吧，我叫冰喵<br>我常用Telegram，极少使用QQ等国产类聊天软件<br>我的Telegram用户名：@CatMoe<br>不用微博也不混贴吧，不是菊苣是渣渣<br>冰喵很容易忘事，如果拜托冰喵一些事的话别忘多提醒一下<br>然后冰喵虽然不会对其他男孩纸女装反感，但如果有人要我女装的话我是拒绝的（立刻拒绝  </p>
 <p>再来说说我的小组-笛凌小组<br>这是冰喵在突发的脑洞中建立的小组，目前正式成员(双向认同的成员)只有一名<br>也就是冰喵本人  </p>
 <p>啊，不知道该说什么好了，就这样吧（未完待续</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;首先先说我自己吧，我叫冰喵&lt;br&gt;我常用Telegram，极少使用QQ等国
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;首先先说我自己吧，我叫冰喵&lt;br&gt;我常用Telegram，极少使用QQ等国产类聊天软件&lt;br&gt;我的Telegram用户名：@CatMoe&lt;br&gt;不用微博也不混贴吧，不是菊苣是
     
     </summary>
     
@@ -98,18 +167,18 @@
   
   <entry>
     <title>[Acg视频分享]禁绝的边境线.mp4</title>
-    <link href="https://morz.org//archives/Acg%E8%A7%86%E9%A2%91%E5%88%86%E4%BA%AB-%E7%A6%81%E7%BB%9D%E7%9A%84%E8%BE%B9%E5%A2%83%E7%BA%BF-mp4/index.html"/>
-    <id>https://morz.org//archives/Acg视频分享-禁绝的边境线-mp4/index.html</id>
+    <link href="https://morz.org//archives/2016/05/19/Acg%E8%A7%86%E9%A2%91%E5%88%86%E4%BA%AB-%E7%A6%81%E7%BB%9D%E7%9A%84%E8%BE%B9%E5%A2%83%E7%BA%BF-mp4/index.html"/>
+    <id>https://morz.org//archives/2016/05/19/Acg视频分享-禁绝的边境线-mp4/index.html</id>
     <published>2016-05-19T10:04:16.000Z</published>
-    <updated>2016-08-09T18:36:55.413Z</updated>
+    <updated>2016-09-06T10:09:52.876Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><div id="dplayer1" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer1 = new DPlayer({element: document.getElementById("dplayer1"),autoplay: false,loop: true,video : {url: "https://static.morz.org/data/video/2016-5-19-18:11.mp4"} });dplayer1.init();</script>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><div id="dplayer1" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer1 = new DPlayer({"element":document.getElementById("dplayer1"),"autoplay":false,"theme":"#FADFA3","loop":true,"video":{"url":"https://video-cache.morz.org/data/video/2016-5-19-18_11.mp4"}});</script>
 <p>备注：本视频是通过Telegram聊天方式获得，不知原作者其来源，如果有来源 请在下方回复中留言即可 我会验证并添加</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;div id=&quot;dplayer1&quot; class=&quot;dplayer&quot; style
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;div id=&quot;dplayer1&quot; class=&quot;dplayer&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;&lt;script&gt;var dplayer1
     
     </summary>
     
@@ -118,53 +187,37 @@
   
   <entry>
     <title>[技术类]自建软路由</title>
-    <link href="https://morz.org//archives/%E6%8A%80%E6%9C%AF%E7%B1%BB-%E8%87%AA%E5%BB%BA%E8%BD%AF%E8%B7%AF%E7%94%B1/index.html"/>
-    <id>https://morz.org//archives/技术类-自建软路由/index.html</id>
+    <link href="https://morz.org//archives/2016/05/18/%E6%8A%80%E6%9C%AF%E7%B1%BB-%E8%87%AA%E5%BB%BA%E8%BD%AF%E8%B7%AF%E7%94%B1/index.html"/>
+    <id>https://morz.org//archives/2016/05/18/技术类-自建软路由/index.html</id>
     <published>2016-05-18T11:16:55.000Z</published>
-    <updated>2016-08-09T18:36:55.413Z</updated>
+    <updated>2016-08-11T04:30:40.150Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>参考：<a href="http://www.tuicool.com/articles/NnU7Rz" target="_blank" rel="external">http://www.tuicool.com/articles/NnU7Rz</a><br>借鉴者：冰喵<br>根据个人需要以及一些经验进行了修改 保证可用性<br>通用性不保证</p>
-<p>2015-12-4 修正文章几个错误</p>
-<p>2016-2-15 更新dhcp<br>2016-5-18 根据谷歌历史页面，找回本文章并修正部分错误<br>2016-5-18 已经不使用软路由了，但还是懂一些的</p>
-<hr>
-<p>鉴于本人路由经常抽风缘故，所以被逼无奈用起了软路由。</p>
-<p>（垃圾TP路由，wifi模式下ping路由时不时能得到和ping国外主机的结果 真是tm够了<br>教程开始<br>eth1 主板集成卡-与光猫链接<br>eth2 pci千兆卡-与电脑连接（也可以和交换机连</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>参考：<a href="http://www.tuicool.com/articles/NnU7Rz" target="_blank" rel="external">http://www.tuicool.com/articles/NnU7Rz</a><br>借鉴者：冰喵<br>根据个人需要以及一些经验进行了修改 保证可用性<br>通用性不保证</p>
+<p>2015-12-4 修正文章几个错误<br>2016-2-15 更新dhcp<br>2016-5-18 根据谷歌历史页面，找回本文章并修正部分错误<br>2016-5-18 已经不使用软路由了，但还是懂一些的</p>
+<h2 id="2016-8-11-修修文章"><a href="#2016-8-11-修修文章" class="headerlink" title="2016-8-11 修修文章  "></a>2016-8-11 修修文章  </h2><p>鉴于本人路由经常抽风缘故，所以被逼无奈用起了软路由。(后期爱loli站长送/借了我一个edgerouter lite，企业产品真的是….)<br>（垃圾TP路由，wifi模式下ping路由时不时能得到和ping国外主机的结果 真是tm够了<br>教程开始<br>eth1 主板集成卡-与光猫链接<br>eth2 pci千兆卡-与电脑连接（也可以和交换机连</p>
 <p>软路由地址：192.168.233.1<br>子网掩码：255.255.255.0<br>DHCP分配范围： 192.168.233.100~192.168.233.200</p>
 <p>pppoe部分（家庭常用</p>
-<p>首先安装pppoe组件 让软路由能自行拨号</p>
-<h1 id="apt-get-install-pppoeconf"><a href="#apt-get-install-pppoeconf" class="headerlink" title="apt-get install pppoeconf"></a>apt-get install pppoeconf</h1><p>安装结束后执行pppoeconf，按照提示来配置你的账号密码<br>接下来编辑/etc/network/interfaces<br>配置eth2的IP地址为 192.168.233.1</p>
-<p>auto eth2<br>iface eth2 inet static<br>address 192.168.233.1<br>netmask 255.255.255.0<br>broadcast 192.168.233.255</p>
-<p>此时宽带连接的网卡名称是ppp0</p>
-<p>开启对应的转发</p>
-<p>修改 /etc/sysctl.conf，开启转发 实现路由功能</p>
-<p>net.ipv4.ip_forward=1</p>
+<p>首先安装pppoe组件 让软路由能自行拨号<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">apt-get install pppoeconf</div></pre></td></tr></table></figure></p>
+<p>安装结束后执行pppoeconf，按照提示来配置你的账号密码<br>接下来编辑/etc/network/interfaces<br>配置eth2的IP地址为 192.168.233.1<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">auto eth2</div><div class="line">iface eth2 inet static</div><div class="line">address 192.168.233.1</div><div class="line">netmask 255.255.255.0</div><div class="line">broadcast 192.168.233.255</div></pre></td></tr></table></figure></p>
+<p>此时宽带连接的网卡名称是ppp0,开启对应的转发<br>修改 /etc/sysctl.conf，开启转发 实现路由功能<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">net.ipv4.ip_forward=1</div></pre></td></tr></table></figure></p>
 <p>设置iptables 让设备可以连网并设置安全规则</p>
 <p>安全无小事，对于能获取公网ip的网络来说这个至关重要<br>（建议写一个shell脚本运行</p>
-<p>#配置，禁止进，允许出，允许回环网卡<br>iptables -P INPUT DROP<br>iptables -P OUTPUT ACCEPT<br>iptables -A INPUT -i lo -j ACCEPT</p>
-<p>#只允许在路由内网进行ssh管理操作 如果<br>注意：-i参数为指定某网卡<br>iptables -A INPUT -i eth2 -p tcp -m tcp –dport 22 -j ACCEPT</p>
-<p>设置转发 上面的转发设置似乎要配合这个才能用 如果有什么错误请指教</p>
-<p>iptables -A POSTROUTING -s 192.168.233.0/24 -o ppp0 -j MASQUERADE</p>
-<p>让软路由重启后iptables依然生效，还需要这样做</p>
-<h1 id="debian-ubuntu"><a href="#debian-ubuntu" class="headerlink" title="debian/ubuntu"></a>debian/ubuntu</h1><p>sudo iptables-save &gt; /etc/iptables<br>sudo nano /etc/network/if-pre-up.d/firewall</p>
-<p>#将以下文件保存在/etc/network/if-pre-up.d/firewall中</p>
-<p>#!/bin/sh<br>/sbin/iptables-restore &lt; /etc/iptables</p>
-<p>#按下Control-X 再输入 Y 保存以上脚本，接着给脚本赋予执行权限<br>sudo chmod +x /etc/network/if-pre-up.d/firewall</p>
-<p>由于没有dhcp 接下来这一步设置电脑本地ip 来让电脑上网<br>（请把eth2的网卡口与你电脑的网卡口进行连接</p>
-<p>dhcp配置<br>安装dnsmasq：apt-get install dnsmasq</p>
-<p>备份原文件：mv /etc/dnsmasq.conf /etc/dnsmasq.conf-bak</p>
-<p>编辑文件：nano /etc/dnsmasq.conf<br>并添加以下内容</p>
-<p>conf-dir=/etc/dnsmasq.d</p>
-<p>interface=eth2</p>
-<p>listen-address=192.168.233.1</p>
-<p>dhcp-range=192.168.233.2,192.168.233.200,48h</p>
-<p>原则上来说这样就可以完成内网的dhcp步骤了 下面的设备也能自动获取ip了</p>
-<p>欢迎大触们补充步骤</p>
-<p>此时你的电脑就可以上网了</p>
+<p>#配置，禁止进，允许出，允许回环网卡<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">iptables -P INPUT DROP</div><div class="line">iptables -P OUTPUT ACCEPT</div><div class="line">iptables -A INPUT -i lo -j ACCEPT</div><div class="line"><span class="comment">#只允许在路由内网进行ssh管理操作 如果不加会导致没法继续管理路由了  </span></div><div class="line"><span class="comment">#注意：-i参数为指定某网卡  </span></div><div class="line">iptables -A INPUT -i eth2 -p tcp -m tcp –dport 22 -j ACCEPT  </div><div class="line"><span class="comment">#设置转发 上面的转发设置似乎要配合这个才能用 如果有什么错误请指教  </span></div><div class="line">iptables -A POSTROUTING <span class="_">-s</span> 192.168.233.0/24 -o ppp0 -j MASQUERADE</div></pre></td></tr></table></figure></p>
+<p>让软路由重启后iptables依然生效，还需要这样做  </p>
+<h1 id="debian-ubuntu"><a href="#debian-ubuntu" class="headerlink" title="debian/ubuntu"></a>debian/ubuntu</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo iptables-save &gt; /etc/iptables</div><div class="line">sudo nano /etc/network/<span class="keyword">if</span>-pre-up.d/firewall</div></pre></td></tr></table></figure>
+<p>#将以下文件保存在/etc/network/if-pre-up.d/firewall中<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line">/sbin/iptables-restore &lt; /etc/iptables</div></pre></td></tr></table></figure></p>
+<p>#按下Control-X 再输入 Y 保存以上脚本，接着给脚本赋予执行权限<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo chmod +x /etc/network/<span class="keyword">if</span>-pre-up.d/firewall</div></pre></td></tr></table></figure></p>
+<p>由于没有dhcp 接下来这一步设置电脑本地ip 来让电脑上网<br>（请把eth2的网卡口与你电脑的网卡口进行连接  </p>
+<p>dhcp配置<br>安装dnsmasq<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">apt-get install dnsmasq</div></pre></td></tr></table></figure></p>
+<p>备份原文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mv /etc/dnsmasq.conf /etc/dnsmasq.conf-bak</div></pre></td></tr></table></figure></p>
+<p>编辑文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nano /etc/dnsmasq.conf</div></pre></td></tr></table></figure></p>
+<p>并添加以下内容<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">conf-dir=/etc/dnsmasq.d</div><div class="line">interface=eth2</div><div class="line">listen-address=192.168.233.1</div><div class="line">dhcp-range=192.168.233.2,192.168.233.200,48h</div></pre></td></tr></table></figure></p>
+<p>原则上来说这样就可以完成内网的dhcp步骤了 下面的设备也能自动获取ip了<br>欢迎菊苣们补充步骤<br>此时你的电脑就可以上网了<br>自己建的软路由总是要比国产垃圾TP强的，在此鄙视一下垃圾TP缩水王  </p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;参考：&lt;a href=&quot;http://www.tuicool.com/ar
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;参考：&lt;a href=&quot;http://www.tuicool.com/articles/NnU7Rz&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http
     
     </summary>
     
@@ -173,48 +226,52 @@
   
   <entry>
     <title>[Acg视频分享]-ClariS 『ひらひら ひらら』</title>
-    <link href="https://morz.org//archives/Acg%E8%A7%86%E9%A2%91%E5%88%86%E4%BA%AB-ClariS-%E3%80%8E%E3%81%B2%E3%82%89%E3%81%B2%E3%82%89-%E3%81%B2%E3%82%89%E3%82%89%E3%80%8F/index.html"/>
-    <id>https://morz.org//archives/Acg视频分享-ClariS-『ひらひら-ひらら』/index.html</id>
+    <link href="https://morz.org//archives/2016/05/16/Acg%E8%A7%86%E9%A2%91%E5%88%86%E4%BA%AB-ClariS-%E3%80%8E%E3%81%B2%E3%82%89%E3%81%B2%E3%82%89-%E3%81%B2%E3%82%89%E3%82%89%E3%80%8F/index.html"/>
+    <id>https://morz.org//archives/2016/05/16/Acg视频分享-ClariS-『ひらひら-ひらら』/index.html</id>
     <published>2016-05-16T13:21:59.000Z</published>
-    <updated>2016-08-09T18:36:55.413Z</updated>
+    <updated>2016-09-06T10:06:01.170Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({element: document.getElementById("dplayer0"),autoplay: false,loop: true,video : {url: "https://blog.morz.org/video/Mv/ClariS%20%E3%80%8E%E3%81%B2%E3%82%89%E3%81%B2%E3%82%89%20%E3%81%B2%E3%82%89%E3%82%89%E3%80%8FMusic%20Video-SmvILpnM2U8.mp4"} });dplayer0.init();</script>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#FADFA3","loop":true,"video":{"url":"https://blog.morz.org/video/Mv/ClariS%20%E3%80%8E%E3%81%B2%E3%82%89%E3%81%B2%E3%82%89%20%E3%81%B2%E3%82%89%E3%82%89%E3%80%8FMusic%20Video-SmvILpnM2U8.mp4"}});</script>
+]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;div id=&quot;dplayer0&quot; class=&quot;dplayer&quot; style
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;div id=&quot;dplayer0&quot; class=&quot;dplayer&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;&lt;script&gt;var dplayer0
     
     </summary>
     
     
-      <category term="Acg视频分享 视频 Acg ClariS" scheme="https://morz.org/tags/Acg%E8%A7%86%E9%A2%91%E5%88%86%E4%BA%AB-%E8%A7%86%E9%A2%91-Acg-ClariS/"/>
+      <category term="视频分享" scheme="https://morz.org/tags/%E8%A7%86%E9%A2%91%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="ClariS" scheme="https://morz.org/tags/ClariS/"/>
     
   </entry>
   
   <entry>
     <title>欢迎访问喵萌博客</title>
-    <link href="https://morz.org//archives/%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE%E5%96%B5%E8%90%8C%E5%8D%9A%E5%AE%A2/index.html"/>
-    <id>https://morz.org//archives/欢迎访问喵萌博客/index.html</id>
+    <link href="https://morz.org//archives/2016/05/16/%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE%E5%96%B5%E8%90%8C%E5%8D%9A%E5%AE%A2/index.html"/>
+    <id>https://morz.org//archives/2016/05/16/欢迎访问喵萌博客/index.html</id>
     <published>2016-05-15T17:12:14.000Z</published>
-    <updated>2016-08-09T19:00:37.009Z</updated>
+    <updated>2016-09-06T10:14:37.479Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>欢迎访问新生的喵萌博客</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>欢迎访问新生的喵萌博客</p>
 <p>#改变了什么#</p>
 <p>vps系统选择了更为激进的Archlinux<br>博客使用了hexo 纯静态 占用很少 GJ</p>
 <p>#练习版#</p>
 <p>音乐分享测试(正式采用Diygod的Aplayer)</p>
 <p>Aplayer</p>
-<div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div><script>var aplayer0 = new APlayer({element: document.getElementById("aplayer0"),narrow: false,autoplay: false,showlrc: 0,music : {title: "凛として咲く花の如く ～ひなビタ♪ edition～",author: "日高里菜,津田美波,五十嵐裕美",url: "https://static.morz.org/data/music/2016-5-17-16:41.mp3",pic: "https://static.morz.org/data/img/2016-05-17-16:41.jpg"}});aplayer0.init();</script>
-<p>视频分享测试（正式采用Diygod的Dplayer<br><div id="dplayer2" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer2 = new DPlayer({element: document.getElementById("dplayer2"),autoplay: false,loop: false,video : {url: "https://static.morz.org/data/video/2016-5-23-20-51.mp4"} });dplayer2.init();</script></p>
+<div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div><script>var aplayer0 = new APlayer({element: document.getElementById("aplayer0"),narrow: false,autoplay: false,showlrc: 0,music : {title: "凛として咲く花の如く ～ひなビタ♪ edition～",author: "日高里菜,津田美波,五十嵐裕美",url: "https://video-cache.morz.org/data/music/2016-5-17-16_41.mp3",pic: "https://static.morz.org/data/img/2016-05-17-16:41.jpg"}});aplayer0.init();</script>
+<p>视频分享测试（正式采用Diygod的Dplayer<br><div id="dplayer6" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer6 = new DPlayer({"element":document.getElementById("dplayer6"),"autoplay":false,"theme":"#FADFA3","loop":false,"video":{"url":"https://video-cache.morz.org/data/video/2016-5-23-20-51.mp4"}});</script></p>
 <p>#开发调试</p>
 <p>#dplayer “url=<a href="http://devtest.qiniudn.com/若能绽放光芒.mp4" target="_blank" rel="external">http://devtest.qiniudn.com/若能绽放光芒.mp4</a>“ “api=<a href="http://dplayer.daoapp.io" target="_blank" rel="external">http://dplayer.daoapp.io</a>“ “pic=<a href="http://devtest.qiniudn.com/若能绽放光芒.png" target="_blank" rel="external">http://devtest.qiniudn.com/若能绽放光芒.png</a>“ “id=9E2E3368B56CDBB4” “loop=yes” “theme=#FADFA3” “autoplay=false” “token=tokendemo”</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;欢迎访问新生的喵萌博客&lt;/p&gt;
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;欢迎访问新生的喵萌博客&lt;/p&gt;
 &lt;p&gt;#改变了什么#&lt;/p&gt;
-&lt;p&gt;vps
+&lt;p&gt;vps系统选择了更为激进的Archlinux&lt;br&gt;博客使用了hexo 纯静态 占用很少 GJ&lt;/p&gt;
+&lt;
     
     </summary>
     
