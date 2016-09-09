@@ -154,15 +154,9 @@
 		})
 		.click();
 		});
-	$(function () {
-		$('h2.site-description')
-		.on('click', function () {
-		$(this).load('https://api.i-meto.com/hitokoto?encode=txt');
-		})
-		.click();
-		});
 
+console.info("来自冰喵的问候")
 console.info("欢迎访问喵萌博客，由笛凌小组运营")
 console.info("如果你发现博客炸了，欢迎在telegram中找@CatMoe反馈")
-console.error("警告，即将爆炸")
 console.info("感谢lwl12.com和i-meto.com提供一言api支持")
+console.info("当前运行一言：lwl")
