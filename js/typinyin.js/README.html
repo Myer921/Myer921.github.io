@@ -1,9 +1,5 @@
-<h1 id="Typinyin-js"><a href="#Typinyin-js" class="headerlink" title="Typinyin.js"></a>Typinyin.js</h1><p><a href="https://classicoldsong.github.io/typinyin.js">Demo演示</a></p>
-<p>Typinyin.js 是受 <a href="https://github.com/mattboldt/typed.js">Typed.js</a> 启发而开发的一款js插件，无需jQuery即可使用。输入中文并输入相对应的拼音，即可呈现出自动用拼音输入文本的效果，并且会自动删除前一句话然后开始新的句子。</p>
-<hr>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><pre><code>$ git clone https://github.com/classicoldsong/typinyin.js.git
-</code></pre><p>###配置</p>
-<pre><code class="javascript">&lt;script src="typinyin.js"&gt;&lt;/script&gt;
+<h1 id="Typinyin-js"><a href="#Typinyin-js" class="headerlink" title="Typinyin.js"></a>Typinyin.js</h1><p><a href="https://classicoldsong.github.io/typinyin.js">Demo演示</a></p><p>Typinyin.js 是受 <a href="https://github.com/mattboldt/typed.js">Typed.js</a> 启发而开发的一款js插件，无需jQuery即可使用。输入中文并输入相对应的拼音，即可呈现出自动用拼音输入文本的效果，并且会自动删除前一句话然后开始新的句子。</p><hr><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><pre><code>$ git clone https://github.com/classicoldsong/typinyin.js.git
+</code></pre><p>###配置</p><pre><code class="javascript">&lt;script src="typinyin.js"&gt;&lt;/script&gt;
 &lt;script&gt;
     window.onload = function(){
         var demo = new Typinyin();
@@ -43,15 +39,8 @@
 ...
 
 &lt;span id="typinyin_demo"&gt;&lt;/span&gt;
-</code></pre>
-<p>如果希望增加光标闪烁动画的话，增加<code>typinyin.css</code>即可</p>
-<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;typinyin.css&quot;&gt;
-</code></pre><p>当然你也可以随意使用JavaScript转义字符，比如用<code>\n</code>来换行</p>
-<p>###自定义输入完毕事件</p>
-<pre><code class="javascript">demo.finished = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
+</code></pre><p>如果希望增加光标闪烁动画的话，增加<code>typinyin.css</code>即可</p><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;typinyin.css&quot;&gt;
+</code></pre><p>当然你也可以随意使用JavaScript转义字符，比如用<code>\n</code>来换行</p><p>###自定义输入完毕事件</p><pre><code class="javascript">demo.finished = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
     <span class="comment">// 自定义内容</span>
 }
-</code></pre>
-<h2 id="许可证：MIT"><a href="#许可证：MIT" class="headerlink" title="许可证：MIT"></a>许可证：MIT</h2><p>感谢 <a href="http://www.mattboldt.com/">Matt Boldt</a> 的光标CSS动画以及Demo页面模板</p>
-<p>如有疑问或者建议欢迎提Issue或者PullRequest或者联系我的邮箱 syqlds@126.com</p>
-<p>当然也欢迎访问我的博客 <a href="http://classicoldsong.me">C次元</a></p>
+</code></pre><h2 id="许可证：MIT"><a href="#许可证：MIT" class="headerlink" title="许可证：MIT"></a>许可证：MIT</h2><p>感谢 <a href="http://www.mattboldt.com/">Matt Boldt</a> 的光标CSS动画以及Demo页面模板</p><p>如有疑问或者建议欢迎提Issue或者PullRequest或者联系我的邮箱 syqlds@126.com</p><p>当然也欢迎访问我的博客 <a href="http://classicoldsong.me">C次元</a></p>
