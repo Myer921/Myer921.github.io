@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>追忆日志(试验)</title>
+  
+  
+  <link href="https://blog.morz.org/atom.xml" rel="self"/>
+  
+  <link href="https://blog.morz.org/"/>
+  <updated>2021-04-18T06:52:51.035Z</updated>
+  <id>https://blog.morz.org/</id>
+  
+  <author>
+    <name>冰雨</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新生-沉寂-复生</title>
+    <link href="https://blog.morz.org/2021/04/18/hello-world/"/>
+    <id>https://blog.morz.org/2021/04/18/hello-world/</id>
+    <published>2021-04-18T06:07:56.603Z</published>
+    <updated>2021-04-18T06:52:51.035Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
