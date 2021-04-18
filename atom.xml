@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>追忆日志(试验)</title>
+  <title>追忆日志</title>
   
   
   <link href="https://blog.morz.org/atom.xml" rel="self"/>
   
   <link href="https://blog.morz.org/"/>
-  <updated>2021-04-18T06:52:51.035Z</updated>
+  <updated>2021-04-18T19:14:18.339Z</updated>
   <id>https://blog.morz.org/</id>
   
   <author>
-    <name>冰雨</name>
+    <name>冰喵</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>新生-沉寂-复生</title>
+    <title>初见-实践-重生</title>
     <link href="https://blog.morz.org/2021/04/18/hello-world/"/>
     <id>https://blog.morz.org/2021/04/18/hello-world/</id>
     <published>2021-04-18T06:07:56.603Z</published>
-    <updated>2021-04-18T06:52:51.035Z</updated>
+    <updated>2021-04-18T19:14:18.339Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="1-初见-2014-2018"><a href="#1-初见-2014-2018" class="headerlink" title="1. 初见 (2014-2018)"></a>1. 初见 (2014-2018)</h1><p>那是 2014 年的新年期间，我购置了第一个域名(并不是这个，你们以后会看到的)<br>这段期间内，我对于网络的意识仍停留在 <a href="https://zh.wikipedia.org/wiki/%E6%97%A0%E7%BA%BF%E5%BA%94%E7%94%A8%E5%8D%8F%E8%AE%AE">WAP</a> 时代  </p><p>这个时间域名用来搭建第一个<a href="https://www.google.com/search?q=%E7%8E%96%E7%8E%A9%E6%B5%8F%E8%A7%88%E5%99%A8">在线浏览器(压缩/免流)</a>给初中生的自己减少手机上网费用<br>那时还没有现代的智能手机，网络还停留在 2G 网络阶段，也是我认为免流最有意思的初始阶段  </p><p>搭建在线浏览器从寻找无数的虚拟主机(免费)，到后来购买 vps(openvz/kvm)，使用第一个 Linux 发行版(CentOS) 搭建 WAP 与 WEB 网站。</p><p>这段期间的资料已经彻底消失在互联网中…..<br>初见-初见互联网-结束</p><h1 id="2-实践-2018-2019"><a href="#2-实践-2018-2019" class="headerlink" title="2. 实践 (2018-2019)"></a>2. 实践 (2018-2019)</h1><p>在这段时间里，搭建喵萌博客经历无数次，也经历了无数爆炸的情况…<br>使用 wordpress ，给 wordpress 使用 pgsql ，给 Nginx 开启 http2 支持(编译 Nginx 无数次) ，用各种盗版主题和盗版插件，在各大 wordpress 站学习各种优化<br>中间也使用过 <a href="https://github.com/SilverBlog/silverblog">Silverblog</a> , <a href="https://hexo.io/">hexo</a><br>魔改许多主题加上透明给自己用，那个时候对于透明有着特殊的追求，不过在 Telegram 社交中发生了大大小小的事情，也同时在无数台 VPS 中迁移来迁移去，组建无数次的超级局域网<br>最后，在数次的迁移过程中，和经费紧张没有备份的情况下，数据彻底爆炸，同时也因涉及到因多嘴导致的大大小小的事情而退圈（开始了小范围社交的模式）。 </p><p>这段实践期间，我更想称之为爆炸时期，这个时候许多人对我的印象如同爆裂魔法惠惠，天天爆炸(Explosion!)…….</p><p>实践-实践爆炸-结束</p><h1 id="3-退圈-2019-2020"><a href="#3-退圈-2019-2020" class="headerlink" title="3. 退圈 (2019-2020)"></a>3. 退圈 (2019-2020)</h1><p>2019-2020 之间的事情，因保密需要不再过多透漏，让我们跳到 下一个部分。<br>这段时间内博客有过重建，但到了最后还是摸鱼搁置掉了…..<br>点评：这两年过的真的稀烂……  </p><h1 id="4-重生-2021"><a href="#4-重生-2021" class="headerlink" title="4. 重生 (2021)"></a>4. 重生 (2021)</h1><p>那么，到了 2021 了，为什么我会突然想起来再次建立博客呢？<br>在浏览 Telegram 频道的时候，我看见了这个主题作者制作的奇妙东西，关注了这个人之后突然给了我一个动力吧。(其实真的很奇妙）<br>最后想到不妨重新创建一个博客，在找回了喵萌博客部分技术之后，作为追忆日志重生了。</p><p>追忆这个名字源自与 MagicNeko 的新网络计划名称<br>这里也会放一些和该计划相关的设想/记录，也会有我冰喵自己的奇怪吐槽和分享吧。</p><p>就到这里，我是冰喵。晚安</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1-初见-2014-2018&quot;&gt;&lt;a href=&quot;#1-初见-2014-2018&quot; class=&quot;headerlink&quot; title=&quot;1. 初见 (2014-2018)&quot;&gt;&lt;/a&gt;1. 初见 (2014-2018)&lt;/h1&gt;&lt;p&gt;那是 2014 年的新年期间，我</summary>
+      
     
     
     
