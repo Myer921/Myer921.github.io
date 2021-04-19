@@ -6,7 +6,7 @@
   <link href="https://blog.morz.org/atom.xml" rel="self"/>
   
   <link href="https://blog.morz.org/"/>
-  <updated>2021-04-19T04:38:09.734Z</updated>
+  <updated>2021-04-19T05:38:48.801Z</updated>
   <id>https://blog.morz.org/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一些api地址的记录和使用方案</title>
+    <link href="https://blog.morz.org/2021/04/19/%E4%B8%80%E4%BA%9Bapi%E5%9C%B0%E5%9D%80%E7%9A%84%E8%AE%B0%E5%BD%95%E5%92%8C%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88/"/>
+    <id>https://blog.morz.org/2021/04/19/%E4%B8%80%E4%BA%9Bapi%E5%9C%B0%E5%9D%80%E7%9A%84%E8%AE%B0%E5%BD%95%E5%92%8C%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88/</id>
+    <published>2021-04-19T05:28:37.000Z</published>
+    <updated>2021-04-19T05:38:48.801Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="V-社游戏服务器调度-api"><a href="#V-社游戏服务器调度-api" class="headerlink" title="V 社游戏服务器调度 api"></a>V 社游戏服务器调度 api</h1><p>它可以查v社游戏在每个区域的游戏服务器 ip 等各项信息。  </p><p>完整链接  </p><pre class="language-none"><code class="language-none">https:&#x2F;&#x2F;api.steampowered.com&#x2F;ISteamApps&#x2F;GetSDRConfig&#x2F;v1?appid&#x3D;730&amp;partner&#x3D;valve</code></pre><p>appid = 游戏在 steam 的 appid<br>730 是 csgo ，570 是 dota2  </p><p><a href="https://api.steampowered.com/ISteamApps/GetSDRConfig/v1?appid=730&partner=valve">CSGO</a>/<a href="https://api.steampowered.com/ISteamApps/GetSDRConfig/v1?appid=570&partner=valve">Dota2</a>  </p><h1 id="Youtube-查看返回服务器所在区域"><a href="#Youtube-查看返回服务器所在区域" class="headerlink" title="Youtube 查看返回服务器所在区域"></a>Youtube 查看返回服务器所在区域</h1><pre class="language-none"><code class="language-none">curl redirector.googlevideo.com&#x2F;report_mapping | grep router</code></pre><p>返回的代号则是相关区域的国际机场代号  </p><h1 id="bilibili-版-ipip-net-数据库"><a href="#bilibili-版-ipip-net-数据库" class="headerlink" title="bilibili 版 ipip.net 数据库"></a>bilibili 版 ipip.net 数据库</h1><p>更新随缘  </p><pre class="language-none"><code class="language-none">https:&#x2F;&#x2F;api.live.bilibili.com&#x2F;ip_service&#x2F;v1&#x2F;ip_service&#x2F;get_ip_addr?ip&#x3D;x.x.x.x</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;V-社游戏服务器调度-api&quot;&gt;&lt;a href=&quot;#V-社游戏服务器调度-api&quot; class=&quot;headerlink&quot; title=&quot;V 社游戏服务器调度 api&quot;&gt;&lt;/a&gt;V 社游戏服务器调度 api&lt;/h1&gt;&lt;p&gt;它可以查v社游戏在每个区域的游戏服务器 ip</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>关于谷歌 IP 识别的二三事</title>
