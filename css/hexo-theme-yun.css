@@ -169,6 +169,8 @@ details[open] summary {
   margin: -1rem -1rem 1rem -1rem;
 }
 :root {
+  --hty-light-color-rgb: 255, 255, 255;
+  --hty-dark-color-rgb: 0, 0, 0;
   --hty-mode: 'light';
   --hty-bg-color: #f5f5f5;
   --hty-text-color: #333;
@@ -239,6 +241,11 @@ body::before {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+}
+.banner-char-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .vertical-line-top,
 .vertical-line-bottom {
@@ -643,7 +650,7 @@ body::before {
   grid-gap: 1rem;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   margin: auto;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 .hty-layout-grid__cell {
   width: 100%;
@@ -850,6 +857,7 @@ body::before {
   cursor: default;
 }
 .post-block {
+  color: var(--hty-text-color);
   margin: 0 1rem;
   padding: 1rem;
   background-color: var(--post-block-bg-color);
@@ -1166,6 +1174,7 @@ body::before {
   transition-delay: 0s;
   background-color: rgba(255,255,255,0.9);
   box-shadow: 0 0 10px rgba(255,255,255,0.1);
+/* tag 容器 */
 }
 .post-card:hover {
   box-shadow: 0 0px 25px rgba(0,0,0,0.05);
@@ -1201,15 +1210,15 @@ body::before {
   display: inline-flex;
   justify-content: flex-end;
 }
-.tag,
-.category {
+.tag-item,
+.category-item {
   font-size: 0.8rem;
   position: relative;
   color: var(--text-color, #000);
   letter-spacing: 1px;
 }
-.tag::before,
-.category::before {
+.tag-item::before,
+.category-item::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -1220,13 +1229,13 @@ body::before {
   border-radius: 4px;
   transition: width 0.2s ease;
 }
-.tag:hover::before,
-.category:hover::before {
+.tag-item:hover::before,
+.category-item:hover::before {
   width: 104%;
   left: -2%;
 }
-.tag .icon,
-.category .icon {
+.tag-item .icon,
+.category-item .icon {
   width: 0.8rem;
   height: 0.8rem;
   padding-left: 0.1rem;
@@ -1912,7 +1921,7 @@ body::before {
   text-align: center;
   font-size: 1rem;
 }
-#goUp {
+#back-to-top {
   position: relative;
   position: fixed;
   right: -0.9rem;
@@ -1924,11 +1933,11 @@ body::before {
   transition-duration: 0.3s;
   transition-delay: 0s;
 }
-#goUp.show {
+#back-to-top.show {
   transform: translateX(-30px) rotate(360deg);
   opacity: 1;
 }
-#goUp .icon {
+#back-to-top .icon {
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -2001,11 +2010,16 @@ body::before {
     border-right-width: 0px;
   }
 }
+.hidden {
+  display: none;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --color-mode: 'dark';
   }
   :root:not([data-user-color-scheme]) {
+    --hty-light-color-rgb: 0, 0, 0;
+    --hty-dark-color-rgb: 255, 255, 255;
     --hty-bg-color: #303030;
     --hty-text-color: #f2f2f2;
     --hty-secondary-text-color: #eee;
@@ -2034,17 +2048,10 @@ body::before {
     background-color: rgba(27,31,46,0.95);
     background-image: none;
   }
-  :root:not([data-user-color-scheme]) .post-title-link {
-    color: #3ca1ff;
-  }
   :root:not([data-user-color-scheme]) .post-card {
     color: #fff;
     background-color: rgba(27,31,46,0.9);
     box-shadow: 0 1px 8px rgba(27,31,46,0.1);
-  }
-  :root:not([data-user-color-scheme]) .post-block {
-    color: var(--hty-text-color);
-    background-color: rgba(27,31,46,0.95);
   }
   :root:not([data-user-color-scheme]) .page-number-basic {
     background-color: rgba(0,0,0,0.5);
@@ -2074,14 +2081,13 @@ body::before {
     background: rgba(227,242,255,0.9);
     cursor: default;
   }
-  :root:not([data-user-color-scheme]) #footer {
-    color: #eee;
-  }
   :root:not([data-user-color-scheme]) .aplayer {
     color: #000;
   }
 }
 [data-user-color-scheme='dark'] {
+  --hty-light-color-rgb: 0, 0, 0;
+  --hty-dark-color-rgb: 255, 255, 255;
   --hty-bg-color: #303030;
   --hty-text-color: #f2f2f2;
   --hty-secondary-text-color: #eee;
@@ -2110,17 +2116,10 @@ body::before {
   background-color: rgba(27,31,46,0.95);
   background-image: none;
 }
-[data-user-color-scheme='dark'] .post-title-link {
-  color: #3ca1ff;
-}
 [data-user-color-scheme='dark'] .post-card {
   color: #fff;
   background-color: rgba(27,31,46,0.9);
   box-shadow: 0 1px 8px rgba(27,31,46,0.1);
-}
-[data-user-color-scheme='dark'] .post-block {
-  color: var(--hty-text-color);
-  background-color: rgba(27,31,46,0.95);
 }
 [data-user-color-scheme='dark'] .page-number-basic {
   background-color: rgba(0,0,0,0.5);
@@ -2149,9 +2148,6 @@ body::before {
 [data-user-color-scheme='dark'] .pagination .space.current {
   background: rgba(227,242,255,0.9);
   cursor: default;
-}
-[data-user-color-scheme='dark'] #footer {
-  color: #eee;
 }
 [data-user-color-scheme='dark'] .aplayer {
   color: #000;

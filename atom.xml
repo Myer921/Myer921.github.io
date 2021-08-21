@@ -6,7 +6,7 @@
   <link href="https://blog.morz.org/atom.xml" rel="self"/>
   
   <link href="https://blog.morz.org/"/>
-  <updated>2021-04-19T05:38:48.801Z</updated>
+  <updated>2021-08-21T15:29:05.087Z</updated>
   <id>https://blog.morz.org/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搞一个 RouterOS 随身路由来玩玩</title>
+    <link href="https://blog.morz.org/2021/08/11/%E6%90%9E%E4%B8%80%E4%B8%AA%20RouterOS%20%E9%9A%8F%E8%BA%AB%E8%B7%AF%E7%94%B1%E6%9D%A5%E7%8E%A9%E7%8E%A9/"/>
+    <id>https://blog.morz.org/2021/08/11/%E6%90%9E%E4%B8%80%E4%B8%AA%20RouterOS%20%E9%9A%8F%E8%BA%AB%E8%B7%AF%E7%94%B1%E6%9D%A5%E7%8E%A9%E7%8E%A9/</id>
+    <published>2021-08-11T01:23:54.000Z</published>
+    <updated>2021-08-21T15:29:05.087Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>2021-08-21 更新设备<br>2021-08-11 计划启动 </p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>自从手机买了火龙 888 ，开了 5G ，不带移动电源也不行了。<br>而且在具有 Android 工作账户模式下，工作账户和个人账户的网络是互相隔离的。<br>你在任意一个账户开启了 wireguard ，另外一个账户不会使用该 wireguard 进行通讯，除非两个不同的账户都开 wireguard，这样不同的账户都可以使用特定网络，接收 Gmail 邮件。<br>但挂两个 wiregaurd ，加上 5G ，加上 888 ，手机电量如流水般消逝。<br>这个时候我想起了某个桶搞的 PD 诱骗，让我觉得有希望能通过移动电源把 RouterOS 设备供电搞定，在考虑电压，损耗等条件下，选择了 QC 诱骗方案。<br>QC 原生支持 12V 输出，转换损耗在移动电源内部，诱骗线不会产生更多损耗。<br>QC 文档 : <a href="https://en.wikipedia.org/wiki/Quick_Charge">维基百科</a></p><h2 id="第一次测试"><a href="#第一次测试" class="headerlink" title="第一次测试"></a>第一次测试</h2><p><img src="/images/static/photo_2021-08-21_22-10-00.jpg" alt="alt 第一次测试" title="Mtk4Gphone" loading="lazy"></p><p>使用材料：<br>路由器: D52G-5HacD2HnD-TC(hAP ac²)<br>QC 诱骗线(12V): <a href="https://detail.tmall.com/item.htm?id=624179266537">天猫链接</a><br>移动电源: 随便买一个支持 QC2.0/3 的就好<br>手机: 别人送一个</p><p>使用方案:<br>移动电源使用 QC 诱骗线连接到路由器电源口中，等待路由器启动后将手机连接到路由器 USB 口，手机端开启 usb 网络共享。<br>使用 RouterOS(v7) wireguard 连接到接入点 A </p><p>结论:<br>方案可行，但手机需要在 RouterOS 启动后才能出现 usb 共享选项，准备寻找合适的 4G 网卡。  </p><h2 id="中途：寻找合适的-4G-网卡路上"><a href="#中途：寻找合适的-4G-网卡路上" class="headerlink" title="中途：寻找合适的 4G 网卡路上"></a>中途：寻找合适的 4G 网卡路上</h2><p>提示：不要贪图便宜买便宜货，所谓免驱动是给你挂一个 usb 光驱然后让你安装…….<br>针对 RouterOS 设备可以在官方文档中进行挑选，链接在 <a href="https://wiki.mikrotik.com/wiki/Manual:Peripherals">这里</a><br>最后在和朋友共同研究的情况下选择了 huawei-e8372-155a 这个便携的 usb 4G 网卡。<br>更多该型号的网卡说明：<a href="https://post.smzdm.com/p/484257/">这里</a></p><p><img src="/images/static/2021-08-21-huawei-e8372-155a.jpg" alt="alt e8372-155a" title="HuAwei-e8372-155A" loading="lazy"></p><p>如果你们有人要问在什么地方买的，淘宝一堆，咸鱼也有，由于是在咸鱼买的(能用，还便宜，虽然没包装盒和盖子，反正扔在包里，无所畏惧)，所以不放链接了。</p><h2 id="第二次测试"><a href="#第二次测试" class="headerlink" title="第二次测试"></a>第二次测试</h2><p><img src="/images/static/2021-08-21-%E8%AE%BE%E5%A4%87%E5%85%A8%E5%AE%B6%E7%A6%8F.jpg" alt="alt 设备全家图" title="现有设备全家福" loading="lazy">  </p><p>与之前的方案不同的是，没用的手机换成了 4G 网卡，解决了第一次测试时出现的问题。<br>在地铁和公共场所的测试中保持了能用水准，无中断现象。</p><p><img src="/images/static/2021-08-21-%E5%92%8C%E6%9C%8B%E5%8F%8B%E8%AE%BE%E5%A4%87%E7%9A%84%E5%90%88%E7%85%A7.jpg" alt="alt 和朋友设备的合照" title="和朋友设备的合照" loading="lazy"></p><h2 id="仍须完善的地方"><a href="#仍须完善的地方" class="headerlink" title="仍须完善的地方"></a>仍须完善的地方</h2><ol><li>RouterOS v7 的 BGP/OSPF等协议实现并不成熟，目前无法做到多个接入点灾备转移。</li><li>hAP ac² 它太热了，建议相关设备放置包外层，减少温度聚集。</li></ol><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>不要使用 hAP ac² 更弱性能设备，wireguard 的 cpu 消耗是扛不住的，朋友的 hAP ac lite 在 cpu 负载上已经上天了。</p><p><img src="/images/static/2021-08-21-CPU100boom.jpg" alt="alt CPU100%BOOM" title="CPU 负载上天啦" loading="lazy"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;更新&quot;&gt;&lt;a href=&quot;#更新&quot; class=&quot;headerlink&quot; title=&quot;更新&quot;&gt;&lt;/a&gt;更新&lt;/h1&gt;&lt;p&gt;2021-08-21 更新设备&lt;br&gt;2021-08-11 计划启动 &lt;/p&gt;
+&lt;h1 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot; clas</summary>
+      
+    
+    
+    
+    
+    <category term="network" scheme="https://blog.morz.org/tags/network/"/>
+    
+  </entry>
   
   <entry>
     <title>一些api地址的记录和使用方案</title>
@@ -41,7 +64,7 @@
     <link href="https://blog.morz.org/2021/04/19/%E5%85%B3%E4%BA%8E%E8%B0%B7%E6%AD%8CIP%E8%AF%86%E5%88%AB%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B/"/>
     <id>https://blog.morz.org/2021/04/19/%E5%85%B3%E4%BA%8E%E8%B0%B7%E6%AD%8CIP%E8%AF%86%E5%88%AB%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B/</id>
     <published>2021-04-19T02:15:08.000Z</published>
-    <updated>2021-04-21T12:09:16.367Z</updated>
+    <updated>2021-08-21T15:26:25.547Z</updated>
     
     <content type="html"><![CDATA[<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>2021-04-21 19:51:34 某大佬联系谷歌后，来自谷歌的恢复<br>2021-04-19 12:36:27 补充一个 IPv4 的区域修正方案<br>2021-04-19 12:16:10 补充看所在区域的几种判定例子<br>2021-04-19 11:39:42 补充了 BGP 广播路由内容<br>2021-04-19 10:15:08 创建本文  </p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在谷歌服务区域中，虽然在 CN/KP 没有正式提供服务 ，在服务区域的划分中确实存在，并且这两个区域受到功能上的限制。<br>今天主要记录一下 CN 区域的服务限制，KP 没能力搞到测试。  </p><p>在 Play 商店中，CN 区域无法购买付费应用，但在 202X 年能直接访问 Play CN 区域应用服务已经十分罕见了。<br>Youtube 不显示 CN 区域，但实际上它确实存在，在版权限制中可以看见该区域的身影..  </p><p>接下来是曾经在使用 BGP 网络的情况下如何指定区域的多种实验方案。<br>我的网络是 IPv6 only 环境，不能保证 100% 适用于 IPv4 。<br>这个东西在个人中始终是黑箱，没有办法 100% 的做到在你的环境中就可用，以及此类方案需要数周甚至数月时间才能正式生效，请获知。  </p><h1 id="谷歌的识别方式"><a href="#谷歌的识别方式" class="headerlink" title="谷歌的识别方式"></a>谷歌的识别方式</h1><h2 id="已知：根据-BGP-广播中的-ASN-国家选项识别区域"><a href="#已知：根据-BGP-广播中的-ASN-国家选项识别区域" class="headerlink" title="已知：根据 BGP 广播中的 ASN 国家选项识别区域"></a>已知：根据 BGP 广播中的 ASN 国家选项识别区域</h2><p>当广播后数小时后会按照 ASN 所在国家进行区域服务提供，我愿称之为一筛。<br>CN 区域直接定位到 CN 区域，其他区域则暂时按照 US 进行提供。</p><p>如果匹配到了 CN 区域，那么你在谷歌首页的工具中你会发现翻译的地址会变成 google.cn 结尾，这便是识别 CN 区域一个小技巧，同时你还能看见你 google 首页地址在隐身模式下会 google.com.hk 。<br>还有一个方案就是访问 <a href="https://youtube.com/red">https://youtube.com/red</a> ，根据定价单位来识别区域，如果提示不支持该区域，则判定是 CN 区域，需要配合上述方案同步测试。</p><p>直接 CN 是没有任何规避手段的，如果不是将按照下一步继续识别  </p><h2 id="根据用户上报区域来识别网络所在区域"><a href="#根据用户上报区域来识别网络所在区域" class="headerlink" title="根据用户上报区域来识别网络所在区域"></a>根据用户上报区域来识别网络所在区域</h2><p>这个步骤是源自我的推测，不保证适用于所有人。<br>我的环境是 IPv6 only + ASN 非 CN<br>如果 ASN 国家不是 CN 区域，那么会按照第一个使用用户判定所在区域。  </p><p>当第一个使用用户在历史活动定位，或者实际 GPS 定位上报的区域为 CN 时，则会临时定向到 CN 区域提供服务。<br>谷歌首页的工具中，翻译的链接地址不会是 google.cn ，第一次访问谷歌也不是 google.com.hk ，Youtube 中不显示国家，red 中提示不支持该区域。 </p><p>例子：<br>访问 <a href="http://www.google.com/">www.google.com</a> ，首页返回 google.com ，翻译返回 google.com ，访问 youtube.com/red 提示不支持该区域 ，访问 Play 商店只有应用没付费 = 暂时 CN 区域<br>访问 <a href="http://www.google.com/">www.google.com</a> ，首页返回.com.hk ，翻译返回 google.cn ，访问 youtube.com/red 提示不支持该区域 ，访问 Play 商店只有应用没付费 = CN 区域<br>访问 <a href="http://www.google.com/">www.google.com</a> ，首页返回.com.hk ，翻译返回 .com.hk ，访问 youtube.com/red 有港币定价 = HK 区域<br>访问 <a href="http://www.google.com/">www.google.com</a> ，首页返回.co.jp，翻译返回 .co.jp，访问 youtube.com/red 有日元定价= JP 区域  </p><h3 id="补充一个谷歌神仙操作"><a href="#补充一个谷歌神仙操作" class="headerlink" title="补充一个谷歌神仙操作"></a>补充一个谷歌神仙操作</h3><p>2021 年，谷歌搞了一个十分神仙的操作。<br>当用户上报区域/地理定位区域与谷歌提供的服务不一致时，谷歌会按照用户上报区域/地理定位区域来判定用户区域，这也就导致了部分用户出口被谷歌判定 CN 区域的原因。<br>当然也有一部分用户不会受到影响，我无法解释这一点，但这个神仙操作还是存在的。<br>咱没有与谷歌直接 Peer 也没有谷歌的 ISP 控制台管理，在 ISP 中可以指定区域的，我无法判定这个条件。  </p><p>接下来是如何将区域修复到你要的区域。</p><h2 id="指定你需要的区域"><a href="#指定你需要的区域" class="headerlink" title="指定你需要的区域"></a>指定你需要的区域</h2><p>这个步骤是源自我的尝试，不保证适用于所有人。</p><h3 id="在-RIR-设置中更改区域"><a href="#在-RIR-设置中更改区域" class="headerlink" title="在 RIR 设置中更改区域"></a>在 RIR 设置中更改区域</h3><p>ARIN 中的 Org 组织指定所在国家，并将这个 Org 套用到你要广播的 IPv6 地址段中(在 AS137256 中则做到了这点，但是只是在其他IP地址库中会生效)  </p><h3 id="在-RIR-中更改-ASN-所在区域"><a href="#在-RIR-中更改-ASN-所在区域" class="headerlink" title="在 RIR 中更改 ASN 所在区域"></a>在 RIR 中更改 ASN 所在区域</h3><p>试图更改 ASN 国家区域 (APNIC 目前并不支持这样的更改，当然你要是硬杠还是可以的)  </p><h3 id="清理谷歌资料信息"><a href="#清理谷歌资料信息" class="headerlink" title="清理谷歌资料信息"></a>清理谷歌资料信息</h3><p>清理 google 帐号的历史活动定位，删除所有与区域相关的搜索  </p><h3 id="BGP-广播区域"><a href="#BGP-广播区域" class="headerlink" title="BGP 广播区域"></a>BGP 广播区域</h3><p>路由广播只会影响 GGC 返回的节点信息，与你最近的 GGC 则看你的上游在什么位置与谷歌接了 BGP Peer。</p><h3 id="向谷歌提交-IP-位置信息"><a href="#向谷歌提交-IP-位置信息" class="headerlink" title="向谷歌提交 IP 位置信息"></a>向谷歌提交 IP 位置信息</h3><p>在<a href="https://support.google.com/websearch/workflow/9308722?hl=zh-Hans">这里</a>，但不支持 IPv6  </p><h4 id="手机部分"><a href="#手机部分" class="headerlink" title="手机部分"></a>手机部分</h4><p>伪装区域（使用edxposed的插件做到的），伪装 SIM 信息 （使用 Magisk 的 Riru - Location Report Enabler)</p><h4 id="PC部分"><a href="#PC部分" class="headerlink" title="PC部分"></a>PC部分</h4><p>删除 Google 个人应用数据中的网络与应用活动记录<br>删除 位置记录<br>清理历史搜索记录<br>使用位置伪装插件 <a href="https://chrome.google.com/webstore/detail/location-guard/cfohepagpmnodfdmjliccbbigdkfcgia">Chrome 插件:Location Guard</a> 来伪装区域并上报。<br>上述步骤处理完后去谷歌搜索输入定位，他会申请定位你的所在区域，授予权限后定位区域会显示你伪装的区域，在谷歌搜索底部看见的区域如果是你伪装的则成功，不是的话手动更新一波伪装位置，如果还是不行请检查插件设置。</p><h4 id="来自某大佬联系-Google-的结果-2021-04-20更新"><a href="#来自某大佬联系-Google-的结果-2021-04-20更新" class="headerlink" title="来自某大佬联系 Google 的结果(2021-04-20更新)"></a>来自某大佬联系 Google 的结果(2021-04-20更新)</h4><p>图片:<br><img src="https://blog.morz.org/images/static/photo_2021-04-21-19-54-54.jpg" alt="alt 来自Google 的回复" title="Google" loading="lazy"></p><p>文字(英语)</p><pre class="language-none"><code class="language-none">Hi, We&#39;re seeing that ASxxxxx has no peering session with Google. All the IPs you&#39;ve provided are located at United States. You might need to reach out your upstream provider to update the geographical location of each IP since we&#39;ve no peering session with your ASN.</code></pre><p>文字(中文)</p><pre class="language-none"><code class="language-none">你好，我们看到ASxxxxx没有与Google的对等会话。 您提供的所有IP都位于美国。 由于我们没有与您的ASN建立对等会话，因此您可能需要联系上游提供商来更新每个IP的地理位置。</code></pre><p>所以我们多了一个更正选择，让和 Google Peer 的上游给 Google 提交地理位置更正信息<br>间接证明了，如果你和 Google 有直接 Peer ，是可以直接提交给Google来更正的</p><h1 id="剩下的……"><a href="#剩下的……" class="headerlink" title="剩下的……"></a>剩下的……</h1><p>剩下的，则是要等数周的谷歌服务调整<br>不要上传和搜索与你伪装区域无关的地址信息<br>朋友，祝你好运  </p>]]></content>
     
@@ -53,6 +76,8 @@
     
     
     
+    
+    <category term="network" scheme="https://blog.morz.org/tags/network/"/>
     
   </entry>
   
