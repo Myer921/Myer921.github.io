@@ -6,7 +6,7 @@
   <link href="https://blog.morz.org/atom.xml" rel="self"/>
   
   <link href="https://blog.morz.org/"/>
-  <updated>2021-10-24T23:28:13.144Z</updated>
+  <updated>2021-10-26T17:18:31.781Z</updated>
   <id>https://blog.morz.org/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.morz.org/2021/10/25/MagicNeko%20%E7%BD%91%E7%BB%9C%E6%9E%B6%E6%9E%84%E5%8D%87%E7%BA%A7%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AE%B0%E5%BD%95/"/>
     <id>https://blog.morz.org/2021/10/25/MagicNeko%20%E7%BD%91%E7%BB%9C%E6%9E%B6%E6%9E%84%E5%8D%87%E7%BA%A7%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AE%B0%E5%BD%95/</id>
     <published>2021-10-24T22:42:52.000Z</published>
-    <updated>2021-10-24T23:28:13.144Z</updated>
+    <updated>2021-10-26T17:18:31.781Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前期"><a href="#前期" class="headerlink" title="前期"></a>前期</h1><p>在 MagicNeko 的提议下，目前的网络从 tinc 全节点 Mesh 转向了 wireguard 单点网络，相比于以前的 tinc 网络。<br>现有的 wireguard 组网方式稳定性得到了大幅度提升。    </p><p>转换工作结束后，我向 MagicNeko 提议将网络进行规范化，这带来了第二次也就是本次升级的记录。</p><h1 id="接口命名"><a href="#接口命名" class="headerlink" title="接口命名"></a>接口命名</h1><p><code>to-t-asuna</code><br><code>an-sp-nana</code><br><code>an-mp-nana</code>  </p><p>to 代表方向(接入点会换成 an )，t 代表类型(接入点会用 sp/mp )，asuna 代表节点名称  </p><p>t = transit<br>u = upstream<br>c = customer</p><p>sp = single-point<br>mp = multi-point</p><h1 id="节点分组"><a href="#节点分组" class="headerlink" title="节点分组"></a>节点分组</h1><p>现有的网络中，目前分为 接入层/中转层/核心层/边界层 </p><h1 id="端口与地址规划"><a href="#端口与地址规划" class="headerlink" title="端口与地址规划"></a>端口与地址规划</h1><p>节点规模不超过 100 ，为防止奇怪问题除 NAT 机器和部分端口转发服务，其他节点统一采用 30000 以下的端口，20000 以上的端口。<br>前三位随机抽取，后两位为节点 ID 。 </p><p>随机抽取数字是 233<br>A 节点 ID 为 23<br>B 节点 ID 为 24 </p><p>A 节点会连接 B 节点 23323 端口，B 节点会连接 A 节点的 23324 端口。<br>接口分配统一手动分配 /64 地址(包含公网地址和本地地址) </p><p>其中 IPv6 的第四组数字将分别是 AID(23)+BID(24) ，既 xxxx:xxxx:xxxx:2324::x/64 用于这个接口中。 </p><h1 id="内部路由如何分发？"><a href="#内部路由如何分发？" class="headerlink" title="内部路由如何分发？"></a>内部路由如何分发？</h1><p>用 ospfv3 啦，暂时够用</p><h1 id="如果有-IPv4-的用途怎么办"><a href="#如果有-IPv4-的用途怎么办" class="headerlink" title="如果有 IPv4 的用途怎么办?"></a>如果有 IPv4 的用途怎么办?</h1><p>ipip6 请，但目前使用 IPv4 的情况也不多，这套方式其实效仿日本的家用网络服务。<br>ipv4 承载在 ipv6 中，只是我用了 ipip6 代替 MAP-E 而已~</p><h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1><p>其实还有一些没写完，随缘我会接着记录的…</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前期"><a href="#前期" class="headerlink" title="前期"></a>前期</h1><p>在 MagicNeko 的提议下，目前的网络从 tinc 全节点 Mesh 转向了 wireguard 单点网络，相比于以前的 tinc 网络。<br>现有的 wireguard 组网方式稳定性得到了大幅度提升。    </p><p>转换工作结束后，我向 MagicNeko 提议将网络进行规范化，这带来了第二次也就是本次升级的记录。</p><h1 id="接口命名"><a href="#接口命名" class="headerlink" title="接口命名"></a>接口命名</h1><p><code>to-t-asuna</code><br><code>an-sp-nana</code><br><code>an-mp-nana</code>  </p><p>to 代表方向(接入点会换成 an )，t 代表类型(接入点会用 sp/mp )，asuna 代表节点名称  </p><p>t = transit<br>u = upstream<br>c = customer</p><p>sp = single-point<br>mp = multi-point</p><h1 id="节点分组"><a href="#节点分组" class="headerlink" title="节点分组"></a>节点分组</h1><p>现有的网络中，目前分为 接入层/中转层/核心层/边界层 </p><h1 id="端口与地址规划"><a href="#端口与地址规划" class="headerlink" title="端口与地址规划"></a>端口与地址规划</h1><p>节点规模不超过 100 ，为防止奇怪问题除 NAT 机器和部分端口转发服务，其他节点统一采用 30000 以下的端口，20000 以上的端口。<br>前三位随机抽取，后两位为节点 ID 。 </p><p>随机抽取数字是 233<br>A 节点 ID 为 23<br>B 节点 ID 为 24 </p><p>A 节点会连接 B 节点 23323 端口，B 节点会连接 A 节点的 23324 端口。<br>接口分配统一手动分配 /64 地址(包含公网地址和本地地址) </p><p>其中 IPv6 的第四组数字将分别是 AID(23)+BID(24) ，既 xxxx:xxxx:xxxx:2324::x/64 用于这个接口中。 </p><h1 id="内部路由如何分发？"><a href="#内部路由如何分发？" class="headerlink" title="内部路由如何分发？"></a>内部路由如何分发？</h1><p>用 ospfv3 啦，暂时够用</p><h1 id="负载均衡？"><a href="#负载均衡？" class="headerlink" title="负载均衡？"></a>负载均衡？</h1><p>ospfv3 的 ECMP , 使用 ospfv4 保证灾备的同时提供多节点的负载均衡。</p><h1 id="如果有-IPv4-的用途怎么办"><a href="#如果有-IPv4-的用途怎么办" class="headerlink" title="如果有 IPv4 的用途怎么办?"></a>如果有 IPv4 的用途怎么办?</h1><p>ipip6 请，但目前使用 IPv4 的情况也不多，这套方式其实效仿日本的家用网络服务。<br>ipv4 承载在 ipv6 中，只是我用了 ipip6 代替 MAP-E 而已~</p><h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1><p>其实还有一些没写完，随缘我会接着记录的…</p>]]></content>
     
     
       
