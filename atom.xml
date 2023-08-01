@@ -6,7 +6,7 @@
   <link href="https://blog.morz.org/atom.xml" rel="self"/>
   
   <link href="https://blog.morz.org/"/>
-  <updated>2023-08-01T12:50:51.263Z</updated>
+  <updated>2023-08-01T12:53:04.167Z</updated>
   <id>https://blog.morz.org/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.morz.org/2023/08/01/%E8%BF%BD%E7%95%AA%E4%BA%91%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E8%AE%B0%E5%BD%95/"/>
     <id>https://blog.morz.org/2023/08/01/%E8%BF%BD%E7%95%AA%E4%BA%91%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E8%AE%B0%E5%BD%95/</id>
     <published>2023-08-01T12:20:00.000Z</published>
-    <updated>2023-08-01T12:50:51.263Z</updated>
+    <updated>2023-08-01T12:53:04.167Z</updated>
     
     <content type="html"><![CDATA[<p>#系统预安装部分<br>系统采用 ubuntu 22.04 + hwe 内核 + jellyfin + cockpit-podman 组合</p><ol><li>需要 intel 在 dg1 显卡中的视频加速支持给 jellyfin 用，所以锁死系统 ubuntu 22.04+hwe 内核</li><li>使用 cockpit-podman 来处理 docker 容器，能使用 apt 安装尽量不要用第三方方式来安装</li></ol><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment">#可以在源里安装的组件</span><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> cockpit-podman fonts-noto-cjk-extra linux-generic-hwe-22.04 ffmpeg<span class="token comment">#上述安装完成后请重启系统应用 hwe 内核</span><span class="token comment">#重启并应用 hwe 内核后需要安装的 intel 驱动</span><span class="token comment">#此部分教程来自 intel gpu 文档</span><span class="token comment">#https://dgpu-docs.intel.com/driver/client/overview.html</span><span class="token comment">#apt 步骤</span><span class="token function">wget</span> -qO - https://repositories.intel.com/graphics/intel-graphics.key <span class="token operator">|</span> <span class="token punctuation">\</span>  <span class="token function">sudo</span> gpg --dearmor --output /usr/share/keyrings/intel-graphics.gpg<span class="token builtin class-name">echo</span> <span class="token string">"deb [arch=amd64,i386 signed-by=/usr/share/keyrings/intel-graphics.gpg] https://repositories.intel.com/graphics/ubuntu jammy arc"</span> <span class="token operator">|</span> <span class="token punctuation">\</span>  <span class="token function">sudo</span> <span class="token function">tee</span> /etc/apt/sources.list.d/intel-gpu-jammy.list<span class="token function">sudo</span> <span class="token function">apt-get</span> update<span class="token comment">#包含所需的 vaapi 驱动部分</span><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y <span class="token punctuation">\</span>  intel-opencl-icd intel-level-zero-gpu level-zero <span class="token punctuation">\</span>  intel-media-va-driver-non-free libmfx1 libmfxgen1 libvpl2 <span class="token punctuation">\</span>  libegl-mesa0 libegl1-mesa libegl1-mesa-dev libgbm1 libgl1-mesa-dev libgl1-mesa-dri <span class="token punctuation">\</span>  libglapi-mesa libgles2-mesa-dev libglx-mesa0 libigdgmm12 libxatracker2 mesa-va-drivers <span class="token punctuation">\</span>  mesa-vdpau-drivers mesa-vulkan-drivers va-driver-all vainfo hwinfo clinfo<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y <span class="token punctuation">\</span>  libigc-dev intel-igc-cm libigdfcl-dev libigfxcmrt-dev level-zero-dev<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y <span class="token punctuation">\</span>    <span class="token function">gawk</span> <span class="token punctuation">\</span>    dkms <span class="token punctuation">\</span>    linux-headers-<span class="token variable"><span class="token variable">$(</span><span class="token function">uname</span> -r<span class="token variable">)</span></span> <span class="token punctuation">\</span>    libc6-dev<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y <span class="token punctuation">\</span>  intel-i915-dkms intel-platform-vsec-dkms <span class="token punctuation">\</span>  intel-platform-cse-dkms intel-fw-gpu <span class="token comment">#重启后 intel gpu 驱动就绪</span><span class="token comment">#jellyfin 部分部署(jellyfin 官网一键安装)</span><span class="token comment">#https://jellyfin.org/downloads/server</span><span class="token function">curl</span> https://repo.jellyfin.org/install-debuntu.sh <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">bash</span></code></pre><p>#配置部分(包含 autobangumi , 待续)</p>]]></content>
     
@@ -36,7 +36,7 @@
     
     
     
-    <category term="linux bangumi" scheme="https://blog.morz.org/tags/linux-bangumi/"/>
+    <category term="linux,bangumi" scheme="https://blog.morz.org/tags/linux-bangumi/"/>
     
   </entry>
   
