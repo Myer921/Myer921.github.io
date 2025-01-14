@@ -1,3 +1,4 @@
+# prefix,country_code,region_code,city,postal
 2402:3180::/48,JP,Tokyo,Tokyo,
 2402:3180:1::/48,US,US-WA,Seattle,
 2402:3180:2::/48,HK,YuenLong,SanTin,
