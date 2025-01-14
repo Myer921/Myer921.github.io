@@ -1,1 +1,5 @@
 2402:3180::/48,JP,Tokyo,Tokyo,
+2402:3180:1::/48,US,US-WA,Seattle,
+2402:3180:2::/48,HK,YuenLong,SanTin,
+2402:3180:3::/48,SG,SG,SG,
+2402:3180:4::/48,CN,Liaoning,Shenyang,
